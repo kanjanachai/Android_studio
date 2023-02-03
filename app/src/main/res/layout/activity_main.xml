@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffe6e6fa"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnmul"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_x="203dp"
+        android:layout_y="255dp"
+        android:text="*"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnplu"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_x="81dp"
+        android:layout_y="255dp"
+        android:text="+"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnneg"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_x="142dp"
+        android:layout_y="255dp"
+        android:text="-"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/btndiv"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_x="266dp"
+        android:layout_y="255dp"
+        android:text="/"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/showresult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="149dp"
+        android:layout_y="340dp"
+        android:text="Result = "
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/num1"
+        android:layout_width="232dp"
+        android:layout_height="wrap_content"
+        android:layout_x="80dp"
+        android:layout_y="57dp"
+        android:ems="10"
+        android:hint="Number 1"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/num2"
+        android:layout_width="232dp"
+        android:layout_height="wrap_content"
+        android:layout_x="83dp"
+        android:layout_y="142dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Number 2" />
+
+</AbsoluteLayout>
